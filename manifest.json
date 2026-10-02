@@ -1,0 +1,17 @@
+{
+  "id": "shiny_odds",
+  "name": "Shiny Odds",
+  "version": "0.0.1",
+  "api": 2,
+  "entry": "main.lua",
+  "profile": "overhaul",
+  "category": "MECHANIC",
+  "games": ["emerald"],
+  "game_version": ">=0.0.0 <2.0.0",
+  "github": "Julien-B1/g1r_shiny_odds",
+  "description": "Adds a selectable shiny encounter rate to Emerald.",
+  "permissions": ["engine_internals"],
+  "dependencies": [],
+  "optional_dependencies": [],
+  "conflicts": []
+}

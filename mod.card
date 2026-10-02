@@ -1,0 +1,14 @@
+return {
+  summary = "Choose a shiny encounter rate from DEFAULT up to 100% in Emerald.",
+  author = "Community",
+  tags = { "emerald", "shiny", "qol" },
+  differences = {
+    changed = { "Shiny Pokemon determination" },
+    added = { "SHINY ODDS option in EXTRAS" },
+    known = {},
+  },
+  credits = {
+    { who = "Gen1Recomp contributors", for_ = "mod API and test infrastructure" },
+  },
+  compat = { engine = ">=0.0.0 <2.0.0", modApi = 2 },
+}
